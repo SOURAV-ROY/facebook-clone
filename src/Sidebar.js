@@ -8,7 +8,7 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
-import {ExpandMoreOutlined} from "@material-ui/icons";
+// import {ExpandMoreOutlined} from "@material-ui/icons";
 
 function Sidebar() {
 
