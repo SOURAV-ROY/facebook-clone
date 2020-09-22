@@ -35,3 +35,31 @@
 .post_image > img {
     width: 100%;
 }
+
+.post_options {
+    /*padding-top: 10px;*/
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.post_option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.post_option > p {
+    margin-left: 10px;
+}
+
+.post_option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}

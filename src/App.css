@@ -1,6 +1,7 @@
 .app {
-    background-color: #eff2f5;
-    height: 100vh;
+    /*background-color: #eff2f5;*/
+    background-color: aliceblue;
+    /*height: 100%;*/
 }
 
 .app_body {
