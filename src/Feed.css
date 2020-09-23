@@ -1,6 +1,6 @@
 .feed {
-    /*flex: 1;*/
-    padding: 30px 150px;
+    flex: 1;
+    padding: 30px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
