@@ -33,6 +33,13 @@ function Feed() {
                 username={"sourav"}
                 // image={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}
             />
+            <Post
+                profilePic={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}
+                message={"message"}
+                timestamp={"timestamp"}
+                username={"souravroy"}
+                image={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}
+            />
         </div>
     );
 }
