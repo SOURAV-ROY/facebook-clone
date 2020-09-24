@@ -1,36 +1,42 @@
 import React from 'react';
 import "./StoryReel.css";
 import Story from "./Story";
+import {useStateValue} from "./StateProvider";
 
 function StoryReel() {
+
+    const [{user}, dispatch] = useStateValue();
+
     return (
         <div className="storyReel">
+
             {/*Story*/}
             <Story
-                image="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                profileSrc="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                title="Sourav"
+                image={user.photoURL}
+                profileSrc={user.photoURL}
+                title={user.displayName}
             />
             <Story
-                image="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                profileSrc="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                title="Gaurab"
+                image={user.photoURL}
+                profileSrc={user.photoURL}
+                title={user.displayName}
             />
             <Story
-                image="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                profileSrc="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                title="Roy"
+                image={user.photoURL}
+                profileSrc={user.photoURL}
+                title={user.displayName}
             />
             <Story
-                image="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                profileSrc="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                title="Chandra"
+                image={user.photoURL}
+                profileSrc={user.photoURL}
+                title={user.displayName}
             />
             <Story
-                image="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                profileSrc="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                title="Roy Sourav"
+                image={user.photoURL}
+                profileSrc={user.photoURL}
+                title={user.displayName}
             />
+
         </div>
     );
 }

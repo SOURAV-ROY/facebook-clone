@@ -12,7 +12,7 @@ function Story({image, profileSrc, title}) {
                 src={profileSrc}
                 className="story_avatar"
             />
-            <h4>{title}</h4>
+            <h5>{title}</h5>
         </div>
     );
 }

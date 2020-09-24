@@ -10,13 +10,15 @@ import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
 // import {ExpandMoreOutlined} from "@material-ui/icons";
 
-function Sidebar() {
+import {useStateValue} from "./StateProvider";
 
+function Sidebar() {
+        const [{user}, dispatch] = useStateValue();
     return (
         <div className="sidebar">
             <SidebarRow
-                src="https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"
-                title="SOURAV"
+                src={user.photoURL}
+                title={user.displayName}
             />
             <SidebarRow
                 Icon={LocalHospitalIcon}
