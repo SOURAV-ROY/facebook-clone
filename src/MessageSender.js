@@ -29,7 +29,7 @@ function MessageSender() {
 
         }).then(res => console.log(res))
             .catch(error => alert(error))
-        
+
         //    some clever DB
         setInput("");
         setImageUrl("");
