@@ -1,6 +1,6 @@
 .messageSender {
     display: flex;
-    margin: 30px;
+    margin: 20px;
     flex-direction: column;
     background-color: white;
     border-radius: 10px;
