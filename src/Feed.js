@@ -48,7 +48,7 @@ function Feed() {
 
             <Post
                 profilePic={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}
-                message={"message"}
+                message={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum incidunt nemo omnis. Accusantium aliquid architecto atque aut blanditiis consectetur consequatur culpa deleniti dicta dolor dolores enim fugiat illum impedit in maiores minus modi molestias natus necessitatibus nemo obcaecati officiis omnis, optio provident quo quos reiciendis repellat sed sunt vel velit."}
                 timestamp={"timestamp"}
                 username={"souravroy"}
                 image={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}
