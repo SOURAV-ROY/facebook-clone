@@ -5,8 +5,8 @@ import VideocamIcon from '@material-ui/icons/Videocam';
 import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 
-import {useStateValue} from "./StateProvider";
-import db from "./firebase";
+import {useStateValue} from "../StateProvider/StateProvider";
+import db from "../Firebase/firebase";
 import firebase from "firebase";
 
 function MessageSender() {

@@ -8,7 +8,7 @@ function Widgets() {
                 title="React"
                 src="https://reactjs-tech-store.netlify.app"
                 width="340"
-                height="1080px"
+                height="100%"
                 style={{border: "none", overflow: "hidden"}}
                 scrolling="yes"
                 frameBorder="0"

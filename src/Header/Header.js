@@ -12,7 +12,7 @@ import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {Avatar, IconButton} from "@material-ui/core";
 
-import {useStateValue} from "./StateProvider";
+import {useStateValue} from "../StateProvider/StateProvider";
 
 function Header() {
 
@@ -26,7 +26,7 @@ function Header() {
                     alt="Facebook"/>
                 <div className="header_input">
                     <SearchIcon/>
-                    <input type="text" placeholder="Search Facebook"/>
+                    <input type="text" placeholder="Search On Facebook"/>
                 </div>
             </div>
 

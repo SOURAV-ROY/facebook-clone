@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import "./Feed.css";
-import StoryReel from "./StoryReel";
-import MessageSender from "./MessageSender";
-import Post from "./Post";
+import StoryReel from "../StoryReel/StoryReel";
+import MessageSender from "../MessageSender/MessageSender";
+import Post from "../Post/Post";
 
-import db from "./firebase";
+import db from "../Firebase/firebase";
 
 function Feed() {
 
@@ -45,6 +45,17 @@ function Feed() {
                     image={post.data.image}
                 />
             ))}
+
+            {/*<Post*/}
+            {/*    profilePic={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}*/}
+            {/*    message={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum incidunt nemo omnis.
+            Accusantium aliquid architecto atque aut blanditiis consectetur consequatur culpa deleniti dicta
+            dolor dolores enim fugiat illum impedit in maiores minus modi molestias natus necessitatibus nemo
+            obcaecati officiis omnis, optio provident quo quos reiciendis repellat sed sunt vel velit."}*/}
+            {/*    timestamp={"25th September-2020"}*/}
+            {/*    username={"souravroy"}*/}
+            {/*    image={"https://www.gstatic.com/tv/thumb/persons/290473/290473_v9_ba.jpg"}*/}
+            {/*/>*/}
 
         </div>
     );
