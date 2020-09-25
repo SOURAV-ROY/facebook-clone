@@ -11,6 +11,7 @@ import {useStateValue} from "./StateProvider/StateProvider";
 function App() {
 
     // const user = null;
+    // eslint-disable-next-line
     const [{user}, dispatch] = useStateValue();
 
     return (

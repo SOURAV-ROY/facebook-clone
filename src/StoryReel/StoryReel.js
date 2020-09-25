@@ -5,6 +5,7 @@ import {useStateValue} from "../StateProvider/StateProvider";
 
 function StoryReel() {
 
+    // eslint-disable-next-line
     const [{user}, dispatch] = useStateValue();
 
     return (
