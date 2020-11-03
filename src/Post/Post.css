@@ -1,10 +1,11 @@
 .post {
     width: 100%;
     margin-top: 15px;
-    border: 15px;
+    /*border: 15px;*/
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    border: 1px solid lightgreen;
 }
 
 .post_top {

@@ -48,7 +48,7 @@ function MessageSender() {
                             (e) => setInput(e.target.value)
                         }
                         className="messageSender_input"
-                        placeholder={`What's On Your Mind ${user.displayName} ?`}
+                        placeholder={`What's On Your Mind ${user.displayName}💚?`}
                     />
 
                     <input
