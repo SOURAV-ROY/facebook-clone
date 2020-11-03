@@ -6,7 +6,8 @@ function Widgets() {
         <div className="widgets">
             <iframe
                 title="React"
-                src="https://reactjs-tech-store.netlify.app"
+                // src="https://reactjs-tech-store.netlify.app"
+                src="https://burger-banai.web.app"
                 width="340"
                 height="100%"
                 style={{border: "none", overflow: "hidden"}}
