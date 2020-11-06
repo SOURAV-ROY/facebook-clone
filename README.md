@@ -16,4 +16,10 @@ firebase init
 firebase deploy
 ```
 
+<h1 align="center">DEMO</h1>
+
+<p align="center">
+ <img src="https://github.com/SOURAV-ROY/facebook-clone/blob/master/public/SS/FS.png" width="870">
+</p>
+   
 #### All Credits Go To [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
